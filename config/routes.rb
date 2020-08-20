@@ -14,6 +14,7 @@ Rails.application.routes.draw do
       get '/user_high_scores', to: 'users#user_high_scores'
       patch '/updategame', to: 'users#updategame'
       patch '/updateuser', to: 'users#updateuser'
+      # get '/user_high_scores', to: 'users#user_high_scores'
     end
   end
 end
