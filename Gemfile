@@ -48,5 +48,4 @@ gem "active_model_serializers", "~> 0.10.10"
 gem "faker", "~> 2.11"
 
 # for heroku deployment
-gem 'rails_12factor'
 gem 'foreman'
